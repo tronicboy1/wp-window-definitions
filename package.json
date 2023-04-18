@@ -1,0 +1,20 @@
+{
+  "name": "@types/wp-window-definitions",
+  "version": "0.0.0",
+  "description": "Definitions of the global functions attached to the windoe in wordpress gutenberg",
+  "main": "lib/index.js",
+  "types": "./types/index.d.ts",
+  "files": [
+    "types",
+    "./README.md"
+  ],
+  "author": "Austin J. Mayer",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
